@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Blog Frontend - login</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo-contenedor">
+                <img
+                    class="logo-contenedor__logo"
+                    src="./assets/img/logos/adl.png"
+                    alt="logo talento digital"
+                />
+                <h1 class="logo-contenedor__titulo">Blog FrontEnd</h1>
+            </div>
+        </header>
+        <main class="main-flex contenedor">
+            <form class="form-login" action="./index.html">
+                <h2 class="form-login__titulo">Registrate !Es gratis!</h2>
+                <div class="inputs-contenedor">
+                    <input
+                        class="inputs-contenedor__input"
+                        type="text"
+                        placeholder="Nombre"
+                    />
+                    <input
+                        class="inputs-contenedor__input"
+                        type="text"
+                        placeholder="Apellido"
+                    />
+                    <input
+                        class="inputs-contenedor__input"
+                        type="email"
+                        placeholder="Email"
+                    />
+                    <input
+                        class="inputs-contenedor__input"
+                        type="password"
+                        placeholder="password"
+                    />
+                    <input
+                        class="inputs-contenedor__input"
+                        type="password"
+                        placeholder="confirmar password"
+                    />
+                </div>
+                <div class="buttons-contenedor">
+                    <button class="buttons-contenedor__button button--login">
+                        Crea tu cuenta
+                    </button>
+                    <button class="buttons-contenedor__button button--google">
+                        <img
+                            class="buttons-contenedor__image"
+                            src="./assets/img/logos/descarga.png"
+                            alt=""
+                        />
+                        <span>Registrate con Google</span>
+                    </button>
+                </div>
+                <p>
+                    Ya tienes cuenta?
+                    <a href="index.html" class="registro">Iniciar Sesion</a>
+                </p>
+            </form>
+        </main>
+        <footer class="footer">
+            <div class="footer__contenido">
+                <img
+                    class="logo-contenedor__logo"
+                    src="./assets/img/logos/adl.png"
+                    alt="logo talento digital"
+                />
+                <h2 class="logo-contenedor__titulo">Blog FrontEnd</h2>
+            </div>
+            <span>Desafio Latam - 2024</span>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,44 @@
+.titulo-page {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.contenido-flex {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.contenido {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.seccion {
+    margin-top: 4rem;
+    background-color: rgb(226, 222, 222);
+    padding: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion img {
+    border-radius: 2rem;
+    width: 70rem;
+    margin: 5rem;
+}
+
+.titulo-relacionados {
+    margin-top: 4rem;
+    font-size: 3rem;
+}
+
+.seccion-flex {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,19 @@
+@import "abstracts/variables";
+
+@import "base/reset";
+@import "base/base";
+@import "base/images";
+@import "base/typography";
+
+@import "components/buttons";
+@import "components/inputs";
+@import "components/border";
+@import "components/subscripcion";
+
+@import "layout/main";
+@import "layout/form-login";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/novedades";
+@import "layout/categorias";
+@import "layout/post";

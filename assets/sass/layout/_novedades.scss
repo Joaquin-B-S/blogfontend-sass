@@ -1,0 +1,50 @@
+.novedades {
+    margin-top: 4rem;
+
+    &__titulo {
+        margin-bottom: 2rem;
+    }
+}
+
+.populares__titulo {
+    margin-bottom: 2rem;
+}
+
+.card__img {
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card__img--big {
+    width: 35rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card__footer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.card__logo {
+    border-radius: 50%;
+    width: 5rem;
+}
+
+.cards-novedades--flex {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card__img--small {
+    width: 20rem;
+    border-radius: 2rem;
+    height: 15rem;
+    object-fit: cover;
+}

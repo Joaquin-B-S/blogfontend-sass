@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Blog Frontend - login</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo-contenedor">
+                <img
+                    class="logo-contenedor__logo"
+                    src="./assets/img/logos/adl.png"
+                    alt="logo talento digital"
+                />
+                <h1 class="logo-contenedor__titulo">Blog FrontEnd</h1>
+            </div>
+        </header>
+        <main class="main-flex contenedor">
+            <form class="form-login" action="./home.html">
+                <h2 class="form-login__titulo">Bienvenido</h2>
+                <div class="inputs-contenedor">
+                    <input
+                        class="inputs-contenedor__input"
+                        type="email"
+                        placeholder="Correo"
+                    />
+                    <input
+                        class="inputs-contenedor__input"
+                        type="password"
+                        placeholder="password"
+                    />
+                </div>
+                <div class="recuerdame-contenedor">
+                    <div>
+                        <input type="checkbox" name="" id="recuerdame" />
+                        <label for="recuerdame">Recuerdame</label>
+                    </div>
+                    <span>Olvidaste tu contrasena?</span>
+                </div>
+                <div class="buttons-contenedor">
+                    <button class="buttons-contenedor__button button--login">
+                        Iniciar sesion
+                    </button>
+                    <button class="buttons-contenedor__button button--google">
+                        <img
+                            class="buttons-contenedor__image"
+                            src="./assets/img/logos/descarga.png"
+                            alt=""
+                        />
+                        <span>Inicia con Google</span>
+                    </button>
+                </div>
+                <p>
+                    No tienes cuenta?
+                    <a href="registro.html" class="registro">Registrate</a>
+                </p>
+            </form>
+        </main>
+        <footer class="footer">
+            <div class="footer__contenido">
+                <img
+                    class="logo-contenedor__logo"
+                    src="./assets/img/logos/adl.png"
+                    alt="logo talento digital"
+                />
+                <h2 class="logo-contenedor__titulo">Blog FrontEnd</h2>
+            </div>
+            <span>Desafio Latam - 2024</span>
+        </footer>
+    </body>
+</html>

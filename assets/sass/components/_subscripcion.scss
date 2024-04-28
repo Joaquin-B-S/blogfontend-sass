@@ -1,0 +1,31 @@
+.subscripcion {
+    background-color: rgb(41, 172, 41);
+    color: white;
+    font-size: 3rem;
+    margin-top: 4rem;
+    border-radius: 1rem;
+    padding: 4rem;
+
+    &__titulo {
+        width: 60%;
+    }
+
+    &__input {
+        height: 5rem;
+        width: 75rem;
+        border-radius: 1rem;
+        border: none;
+        margin-right: 10rem;
+    }
+
+    &__suscribete {
+        border: none;
+        font-weight: bold;
+        width: 15rem;
+        height: 5rem;
+        border-radius: 1rem;
+        font-size: 2rem;
+        background-color: rgb(192, 186, 186);
+        cursor: pointer;
+    }
+}

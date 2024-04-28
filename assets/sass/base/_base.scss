@@ -1,0 +1,23 @@
+.contenedor {
+    width: 128rem;
+    margin: 0 auto;
+}
+
+.contenedor-flex {
+    display: flex;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.contenedor__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+    row-gap: 3rem;
+}
+
+.contenedor-flex-seccion {
+    display: flex;
+    margin-top: 4rem;
+    justify-content: space-between;
+}

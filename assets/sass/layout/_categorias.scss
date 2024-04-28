@@ -1,0 +1,99 @@
+@import "../abstracts/variables";
+
+.categorias__titulo {
+    margin-bottom: 2rem;
+}
+
+.categoria__html {
+    background-color: $naranjo;
+    border-radius: 10px;
+    width: 35rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+
+.categoria__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.categoria__html span {
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.categoria__img {
+    width: 10rem;
+}
+
+.categoria__js {
+    background-color: $amarillo;
+    border-radius: 10px;
+    width: 35rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+
+.categoria__js span {
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.categoria__css {
+    background-color: $azul;
+    border-radius: 10px;
+    width: 35rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+
+.categoria__css span {
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.categoria__react {
+    background-color: $oscuro;
+    border-radius: 10px;
+    width: 35rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+
+.categoria__react span {
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.categoria__vue {
+    background-color: $verde;
+    border-radius: 10px;
+    width: 35rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+
+.categoria__vue span {
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.categoria__boostrap {
+    background-color: $morado;
+    border-radius: 10px;
+    width: 35rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+
+.categoria__boostrap span {
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+}

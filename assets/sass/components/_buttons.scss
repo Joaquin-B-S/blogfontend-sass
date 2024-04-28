@@ -1,0 +1,36 @@
+@import "../abstracts/variables";
+
+.buttons-contenedor {
+    width: 100%;
+}
+
+.buttons-contenedor__button {
+    border-radius: 0.5rem;
+    border: none;
+    border: 1px solid #00000033;
+    padding: 0.5rem;
+    font-weight: $bold;
+    height: 5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.button--login {
+    background-color: $verde;
+    color: $blanco;
+}
+
+.button--google {
+    background-color: $blanco;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.buttons-contenedor__image {
+    height: 4rem;
+    width: 4rem;
+    object-fit: cover;
+    border-radius: 100%;
+}
