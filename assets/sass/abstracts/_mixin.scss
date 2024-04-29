@@ -1,0 +1,13 @@
+@mixin categoria($color) {
+    background-color: $color;
+    border-radius: 10px;
+    width: 35rem;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+}
+
+@mixin texto {
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+}

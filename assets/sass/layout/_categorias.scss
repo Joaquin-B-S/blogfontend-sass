@@ -1,15 +1,12 @@
 @import "../abstracts/variables";
+@import "../abstracts/mixin";
 
 .categorias__titulo {
     margin-bottom: 2rem;
 }
 
-.categoria__html {
-    background-color: $naranjo;
-    border-radius: 10px;
-    width: 35rem;
-    margin-bottom: 2rem;
-    padding: 0 1rem;
+.categoria__img {
+    width: 10rem;
 }
 
 .categoria__flex {
@@ -19,81 +16,49 @@
 }
 
 .categoria__html span {
-    color: white;
-    font-weight: bold;
-    font-size: 4rem;
+    @include texto();
 }
 
-.categoria__img {
-    width: 10rem;
+.categoria__html {
+    @include categoria($naranjo);
 }
 
 .categoria__js {
-    background-color: $amarillo;
-    border-radius: 10px;
-    width: 35rem;
-    margin-bottom: 2rem;
-    padding: 0 1rem;
+    @include categoria($amarillo);
 }
 
 .categoria__js span {
-    color: white;
-    font-weight: bold;
-    font-size: 4rem;
+    @include texto();
 }
 
 .categoria__css {
-    background-color: $azul;
-    border-radius: 10px;
-    width: 35rem;
-    margin-bottom: 2rem;
-    padding: 0 1rem;
+    @include categoria($azul);
 }
 
 .categoria__css span {
-    color: white;
-    font-weight: bold;
-    font-size: 4rem;
+    @include texto();
 }
 
 .categoria__react {
-    background-color: $oscuro;
-    border-radius: 10px;
-    width: 35rem;
-    margin-bottom: 2rem;
-    padding: 0 1rem;
+    @include categoria($oscuro);
 }
 
 .categoria__react span {
-    color: white;
-    font-weight: bold;
-    font-size: 4rem;
+    @include texto();
 }
 
 .categoria__vue {
-    background-color: $verde;
-    border-radius: 10px;
-    width: 35rem;
-    margin-bottom: 2rem;
-    padding: 0 1rem;
+    @include categoria($verde);
 }
 
 .categoria__vue span {
-    color: white;
-    font-weight: bold;
-    font-size: 4rem;
+    @include texto();
 }
 
 .categoria__boostrap {
-    background-color: $morado;
-    border-radius: 10px;
-    width: 35rem;
-    margin-bottom: 2rem;
-    padding: 0 1rem;
+    @include categoria($morado);
 }
 
 .categoria__boostrap span {
-    color: white;
-    font-weight: bold;
-    font-size: 4rem;
+    @include texto();
 }

@@ -246,12 +246,8 @@ body {
   margin-bottom: 2rem;
 }
 
-.categoria__html {
-  background-color: #e93e30;
-  border-radius: 10px;
-  width: 35rem;
-  margin-bottom: 2rem;
-  padding: 0 1rem;
+.categoria__img {
+  width: 10rem;
 }
 
 .categoria__flex {
@@ -266,8 +262,12 @@ body {
   font-size: 4rem;
 }
 
-.categoria__img {
-  width: 10rem;
+.categoria__html {
+  background-color: #e93e30;
+  border-radius: 10px;
+  width: 35rem;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
 }
 
 .categoria__js {
